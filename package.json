@@ -1,0 +1,30 @@
+{
+  "name": "login-signup-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rovaimsiraj2007-creator/Login-Signup-backend#readme",
+  "bugs": {
+    "url": "https://github.com/rovaimsiraj2007-creator/Login-Signup-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovaimsiraj2007-creator/Login-Signup-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
